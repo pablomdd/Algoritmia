@@ -9,4 +9,4 @@
 ### Binary Tree
 
 Solve Problems Recursively
-- MaxDepth (JS)["../DataStructures/BinaryTree/maxDepth.js"]
+- MaxDepth [JS]("./../DataStructures/BinaryTree/maxDepth.js")
