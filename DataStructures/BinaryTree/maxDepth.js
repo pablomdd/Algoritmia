@@ -32,3 +32,13 @@ var maxDepthTopToBottom = function(root) {
    
    return answer;
 };
+
+// Bottom -> Top (PostOrder Traversal)
+var maxDepth = function(root, depth = 0) {
+    if(root === null) return depth;
+    
+    const left = maxDepth(root.left, depth + 1);
+    const right = maxDepth(root.right, depth + 1);
+    
+    return Math.max(left, right);
+};
