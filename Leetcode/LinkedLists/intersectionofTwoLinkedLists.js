@@ -24,6 +24,7 @@ var getIntersectionNode = function(headA, headB) {
         headB = headB.next;
     }
     // Compare nodes until find intersection on completely traverse the lists
+    // Worst: O(n)
     while(headA && headB && headA !== headB){
         headA = headA.next;
         headB = headB.next;
@@ -32,6 +33,10 @@ var getIntersectionNode = function(headA, headB) {
     // If not intersected, then headA is null
     return headA;
 };
+// Summary:
+// Time: O(3n) => O(n)
+// Space: O(1)
+// Two pointers technique
 
 const getListLength = (head) => {
     let length = 0;
