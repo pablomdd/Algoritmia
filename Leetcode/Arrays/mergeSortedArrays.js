@@ -7,6 +7,8 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
+// Time O(m+n)
+// Space O(1)
 var merge = function(nums1, m, nums2, n) {
     m --;
     n --;
