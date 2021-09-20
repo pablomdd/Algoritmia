@@ -47,4 +47,4 @@ def rotationalCipher(input, rotation_factor):
     return output
 
 
-rotationalCipher("Zebra-493?", 3)
+rotationalCipher("Zebra-493?", 0)
